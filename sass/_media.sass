@@ -12,14 +12,16 @@
       padding-bottom: 30px
     &__search
       margin-left: auto
+      margin-right: 73px
       max-width: 340px
     &-menu
-      padding-top: 22px
+      padding-top: 20px
       padding-bottom: 22px
+      justify-content: space-around
       &__link
         font-size: 12px
         line-height: 15px
-@media (max-width: 768px)
+@media (max-width: 767px)
   .container
     max-width: 576px
     width: 92%
@@ -44,3 +46,9 @@
 @media (max-width: 576px)
   .logo
     width: 99px
+@media (max-width: 320px)
+  .container
+    width: 87%
+  .navbar
+    &-top
+      padding-top: 27px
