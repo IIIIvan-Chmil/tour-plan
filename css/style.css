@@ -519,7 +519,7 @@ img {
 }
 
 .stars {
-  flex-basis: 90%;
+  flex-basis: 100%;
 }
 
 .stars-drop {
@@ -546,13 +546,24 @@ img {
 }
 
 .rating__text {
+  font-weight: 600;
   font-size: 8px;
   line-height: 10px;
 }
 
 .rating__counter {
+  font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+}
+
+.rating__counter-small {
+  display: inline-block;
+  margin-left: -4px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: px;
 }
 
 @media (max-width: 1200px) {
@@ -613,7 +624,7 @@ img {
     background-color: #333333;
   }
   .stars {
-    flex-basis: content;
+    flex-basis: 17%;
   }
   .hotel-name {
     flex-basis: 100%;
