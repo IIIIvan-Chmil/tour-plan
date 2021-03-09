@@ -433,6 +433,7 @@ img {
   height: 100%;
   border: none;
   background-color: #ec1f46;
+  outline: none;
 }
 
 .user {
