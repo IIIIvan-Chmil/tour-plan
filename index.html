@@ -31,7 +31,11 @@
               placeholder="Search Location"
             />
             <button class="search__button">
-              <img src="img/search.svg" alt="Icon: search" />
+              <img
+                src="img/search.svg"
+                alt="Icon: search"
+                class="search__button__coordinates"
+              />
             </button>
           </form>
 
@@ -219,10 +223,11 @@
             <!-- /.booking -->
             <div class="map">
               <iframe
+                class="map__size"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4777.807423558328!2d-80.76027374501962!3d32.13896185364368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fc791b7607191b%3A0x98f2b586ea9394e7!2sGrand%20Hilton%20Head%20Inn%2C%20Ascend%20Hotel%20Collection!5e0!3m2!1sru!2sru!4v1615379103624!5m2!1sru!2sru"
                 width="347px"
                 height="213px"
-                style="border: 0"
+                style="border: 0; border-radius: 10px"
                 allowfullscreen=""
                 loading="lazy"
               ></iframe>
