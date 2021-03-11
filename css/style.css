@@ -969,9 +969,11 @@ img {
     width: 100%;
     height: 100%;
   }
+  .newsletter {
+    padding: 59px 0 81px 0;
+  }
   .newsletter-wrapper {
     flex-direction: column;
-    padding: 58px 0 73px 0;
     align-items: flex-start;
     justify-content: start;
     max-width: 280px;
