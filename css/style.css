@@ -898,6 +898,12 @@ img {
   .slider {
     margin-bottom: 20px;
   }
+  .slider-button--next {
+    transform: translateY(-50%) translateX(70%) scale(0.5);
+  }
+  .slider-button--prev {
+    transform: translateY(-50%) translateX(-70%) scale(0.5);
+  }
 }
 
 @media (max-width: 320px) {
@@ -913,8 +919,8 @@ img {
   .booking {
     width: 100%;
     min-height: 100%;
-    padding: 30px 18px 23px 20px;
-    margin-bottom: 30px;
+    padding: 30px 18px 25px 20px;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
