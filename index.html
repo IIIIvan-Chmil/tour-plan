@@ -132,55 +132,57 @@
           <!-- /.hotel-info__rating -->
         </div>
         <div class="hotel-grid">
-          <div class="slider">
-            <!-- Slider main container -->
-            <div class="swiper-container">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img
-                    src="img/slide.jpg"
-                    alt="slide"
-                    class="swiper-slide__itom"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="img/slide_1.jpg"
-                    alt="slide"
-                    class="swiper-slide__itom"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="img/slide_2.jpg"
-                    alt="slide"
-                    class="swiper-slide__itom"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="img/slide_3.jpg"
-                    alt="slide"
-                    class="swiper-slide__itom"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="img/slide_4.jpg"
-                    alt="slide"
-                    class="swiper-slide__itom"
-                  />
-                </div>
+          <!-- Slider main container -->
+          <div class="swiper-container hotel-slider hotel__slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/slide.jpg"
+                  alt="slide"
+                  class="swiper-slide__itom"
+                />
               </div>
-              <!-- If we need navigation buttons -->
-              <button class="slider-button slider-button--prev"></button>
-              <button class="slider-button slider-button--next"></button>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/slide_1.jpg"
+                  alt="slide"
+                  class="swiper-slide__itom"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/slide_2.jpg"
+                  alt="slide"
+                  class="swiper-slide__itom"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/slide_3.jpg"
+                  alt="slide"
+                  class="swiper-slide__itom"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/slide_4.jpg"
+                  alt="slide"
+                  class="swiper-slide__itom"
+                />
+              </div>
             </div>
-            <!-- /.swiper-container -->
+            <!-- If we need navigation buttons -->
+            <button
+              class="hotel-slider__button hotel-slider__button--prev"
+            ></button>
+            <button
+              class="hotel-slider__button hotel-slider__button--next"
+            ></button>
           </div>
-          <!-- /.slider -->
+          <!-- /.swiper-container -->
+
           <div class="hotel-right">
             <div class="booking">
               <div class="booking__info">
@@ -260,7 +262,7 @@
     <!-- /.newsletter -->
     <section class="reviews">
       <div class="container">
-        <h2 class="section-title">What people think about us</h2>
+        <h2 class="reviews__title">What people think about us</h2>
         <div class="swiper-container reviews-slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -273,7 +275,7 @@
                   />
                   <h3 class="reviews-slider__username">Megan Fox</h3>
                   <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
-                  <div class="rating">
+                  <div class="reviews-slider__rating">
                     <img class="stars-drop" src="img/Star.svg" alt="star" />
                     <img class="stars-drop" src="img/Star.svg" alt="star" />
                     <img class="stars-drop" src="img/Star.svg" alt="star" />
@@ -283,14 +285,102 @@
                   <!-- /.rating -->
                 </div>
                 <!-- /.reviews-slider__profile -->
+                <div class="reviews-slider__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </div>
+                <!-- /.reviews-slider__text -->
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="img/Artyr-Nord.jpg"
+                    alt="Photo: Artyr Nord"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Artyr Nord</h3>
+                  <span class="reviews-slider__date">Stayed 15 Oct, 2019</span>
+                  <div class="reviews-slider__rating">
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                  </div>
+                  <!-- /.rating -->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <div class="reviews-slider__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </div>
+                <!-- /.reviews-slider__text -->
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="img/Svift-Red.jpg"
+                    alt="Photo: Svift Red"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Svift Red</h3>
+                  <span class="reviews-slider__date">Stayed 10 Dec, 2018</span>
+                  <div class="reviews-slider__rating">
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                    <img class="stars-drop" src="img/Star.svg" alt="star" />
+                  </div>
+                  <!-- /.rating -->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <div class="reviews-slider__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </div>
+                <!-- /.reviews-slider__text -->
               </div>
               <!-- /.reviews-slider__item -->
             </div>
             <!-- /.swiper-slide -->
           </div>
           <!-- /.swiper-wrapper -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <button
+            class="reviews-slider__button reviews-slider__button--prev"
+          ></button>
+          <button
+            class="reviews-slider__button reviews-slider__button--next"
+          ></button>
         </div>
         <!-- /.reviews-slider -->
       </div>
