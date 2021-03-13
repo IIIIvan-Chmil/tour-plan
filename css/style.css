@@ -837,6 +837,11 @@ img {
   line-height: 15px;
 }
 
+.parallax-window {
+  min-height: 100%;
+  background: transparent;
+}
+
 .reviews {
   padding: 10px 0 70px 0;
 }
