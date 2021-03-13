@@ -1268,6 +1268,13 @@ button, a, input {
     width: 100%;
     height: 255px;
   }
+  .card:nth-child(1) {
+    order: -4;
+  }
+  .card:nth-child(3) {
+    margin-bottom: 28px;
+    order: -3;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1337,16 +1344,6 @@ button, a, input {
     font-size: 18px;
     line-height: 23px;
     margin-bottom: 40px;
-  }
-  .card {
-    width: 100%;
-  }
-  .card:nth-child(1) {
-    order: -4;
-  }
-  .card:nth-child(3) {
-    margin-bottom: 28px;
-    order: -3;
   }
   .activities {
     padding: 29px 0 30px 0;
