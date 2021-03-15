@@ -352,10 +352,6 @@ body {
   margin: auto;
 }
 
-img {
-  max-width: 100%;
-}
-
 button, a, input {
   outline: none;
 }
@@ -750,6 +746,255 @@ button, a, input {
   height: 213px;
   background-color: red;
   border-radius: 10px;
+}
+
+.other {
+  padding: 10px 0 67px 0;
+}
+
+.other__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 66px;
+}
+
+.other__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.other__grid-package-1 {
+  grid-column: 1 / 3;
+}
+
+.package-1 {
+  display: flex;
+  background-color: #0A223D;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.package-1__image {
+  min-width: 365px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+}
+
+.package-1__image-foto {
+  display: block;
+  width: 365px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.package-1__label {
+  position: absolute;
+  left: 0;
+  top: 26px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  background-color: #ec1f46;
+  padding: 8px 22px 7px 11px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.package-1__info {
+  min-width: 365px;
+  padding: 40px 21px 30px 44px;
+}
+
+.package-1__stars-drop {
+  margin-right: -2px;
+}
+
+.package-1__title {
+  margin: 0 0 30px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.package-1__paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 44px;
+}
+
+.package-1__sofe {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 36px;
+}
+
+.package-1__text {
+  display: flex;
+  align-items: center;
+  min-width: 67px;
+}
+
+.package-1__text:not(:last-child) {
+  margin-bottom: 11px;
+}
+
+.package-1__icon {
+  margin-right: 14px;
+  margin-left: 2px;
+}
+
+.package-1__not-price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  margin-left: 3px;
+}
+
+.package-1__book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.package-1__book-price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 5px;
+}
+
+.package-1__book-button {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  padding: 11px 27px 10px 26px;
+  background-color: #ec1f46;
+  border: none;
+  border-radius: 4px;
+}
+
+.package {
+  background-color: #0A223D;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.package__image {
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+}
+
+.package__image-foto {
+  display: block;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.package__label {
+  position: absolute;
+  left: 0;
+  top: 26px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  color: #fff;
+  background-color: #ec1f46;
+  padding: 4px 9px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.package__info {
+  padding: 30px 21px 25px 32px;
+}
+
+.package__title {
+  margin: 0 0 23px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.package__sofe {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 23px;
+}
+
+.package__text {
+  display: flex;
+  align-items: center;
+  min-width: 67px;
+}
+
+.package__text:not(:last-child) {
+  margin-bottom: 11px;
+}
+
+.package__icon {
+  margin-right: 14px;
+}
+
+.package__not-price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+}
+
+.package__book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.package__book-price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.package__book-button {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  padding: 11px 27px 10px 26px;
+  background-color: #ec1f46;
+  border: none;
+  border-radius: 4px;
 }
 
 .newsletter {
