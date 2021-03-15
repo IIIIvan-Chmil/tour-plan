@@ -352,6 +352,10 @@ body {
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 button, a, input {
   outline: none;
 }
@@ -765,7 +769,6 @@ button, a, input {
 .other__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   column-gap: 30px;
   row-gap: 30px;
 }
@@ -782,17 +785,17 @@ button, a, input {
 }
 
 .package-1__image {
-  min-width: 365px;
+  width: 365px;
   height: 500px;
   overflow: hidden;
-  border-radius: 8px 8px 0 0;
+  border-radius: 8px 0 0 8px;
   position: relative;
 }
 
 .package-1__image-foto {
   display: block;
-  width: 365px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -811,7 +814,7 @@ button, a, input {
 }
 
 .package-1__info {
-  min-width: 365px;
+  width: 365px;
   padding: 40px 21px 30px 44px;
 }
 
@@ -820,7 +823,7 @@ button, a, input {
 }
 
 .package-1__title {
-  margin: 0 0 30px 0;
+  margin: 0 0 28px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -832,7 +835,7 @@ button, a, input {
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  margin-bottom: 44px;
+  margin-bottom: 46px;
 }
 
 .package-1__sofe {
@@ -910,8 +913,8 @@ button, a, input {
 
 .package__image-foto {
   display: block;
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -1300,6 +1303,20 @@ button, a, input {
     width: 230px;
     height: 230px;
   }
+  .other__grid {
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .package-1__image {
+    width: 325px;
+  }
+  .package-1__info {
+    width: 325px;
+    padding: 17px 21px 30px 44px;
+  }
+  .package__image {
+    width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1340,6 +1357,18 @@ button, a, input {
   .hotel-slider {
     width: 100%;
     margin-bottom: 30px;
+  }
+  .other__grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .package-1__image {
+    width: 350px;
+  }
+  .package-1__info {
+    width: 350px;
+    padding: 17px 21px 30px 44px;
   }
   .booking {
     width: 340px;
@@ -1447,6 +1476,37 @@ button, a, input {
   }
   .hotel-right {
     flex-direction: column;
+  }
+  .other__grid {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 0;
+  }
+  .other__grid-package-1 {
+    grid-column: 1 / 2;
+  }
+  .package-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .package-1__image {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px 8px 0 0;
+  }
+  .package-1__info {
+    width: 100%;
+    padding: 40px 21px 30px 20px;
+  }
+  .package {
+    background-color: #0A223D;
+    color: #fff;
+    border-radius: 8px;
+    max-width: 100%;
+  }
+  .package__image {
+    width: 100%;
+    height: 250px;
   }
   .booking {
     width: 100%;
