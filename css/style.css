@@ -360,6 +360,10 @@ button, a, input {
   outline: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .navbar {
   background-color: #fff;
 }
@@ -571,7 +575,6 @@ button, a, input {
   width: 30px;
   height: 30px;
   border: none;
-  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 10px;
@@ -742,7 +745,6 @@ button, a, input {
   background-color: #ec1f46;
   border: none;
   color: #fff;
-  cursor: pointer;
 }
 
 .map {
@@ -1147,7 +1149,6 @@ button, a, input {
   background-position: center;
   background-color: transparent;
   border: none;
-  cursor: pointer;
   z-index: 99;
 }
 
@@ -1289,7 +1290,6 @@ button, a, input {
   border: none;
   background-color: #ec1f46;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .footer {
@@ -1702,7 +1702,6 @@ button, a, input {
     flex-direction: column;
     border: none;
     background-color: #fff;
-    cursor: pointer;
   }
   .menu-button__line {
     width: 16px;
