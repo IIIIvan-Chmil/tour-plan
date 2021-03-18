@@ -171,6 +171,8 @@
   body
     padding-top: 78px
   .navbar
+    &__search
+      margin-right: 0
     &--mobile
       &--fixed
         position: fixed
@@ -184,6 +186,7 @@
           display: none
         &--visible
           display: flex
+          margin-bottom: 7px
     &__user
       flex-direction: column
       justify-content: center
@@ -193,12 +196,13 @@
       left: 0
       right: 0
       bottom: 0
-      top: 78px
-      padding-top: 30px
+      top: 71px
+      padding-top: 11px
       &--visible
         display: block
     &-menu
       flex-direction: column
+      padding-top: 20px
       &__item
         margin-bottom: 20px
         &--mobile
@@ -352,6 +356,9 @@
         width: 100%
 
 @media (max-width: 576px)
+  .navbar
+    &-top
+      padding-top: 25px
   .logo
     width: 100px
   .stars
@@ -365,6 +372,9 @@
       &__item
         width: 100%
         height: 56vw
+  .search
+    &__input
+      width: 245px
   .hotel
     &-slider
       margin-bottom: 20px
@@ -480,9 +490,6 @@
     padding-top: 1px
   .container
     width: 86%
-  .navbar
-    &-top
-      padding-top: 23px
   .booking
     width: 100%
     min-height: 100%

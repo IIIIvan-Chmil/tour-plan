@@ -1717,6 +1717,9 @@ textarea {
   body {
     padding-top: 78px;
   }
+  .navbar__search {
+    margin-right: 0;
+  }
   .navbar--mobile--fixed {
     position: fixed;
     left: 0;
@@ -1729,6 +1732,7 @@ textarea {
   }
   .navbar__user--mobile--visible, .navbar__search--mobile--visible {
     display: flex;
+    margin-bottom: 7px;
   }
   .navbar__user {
     flex-direction: column;
@@ -1740,14 +1744,15 @@ textarea {
     left: 0;
     right: 0;
     bottom: 0;
-    top: 78px;
-    padding-top: 30px;
+    top: 71px;
+    padding-top: 11px;
   }
   .navbar-bottom--visible {
     display: block;
   }
   .navbar-menu {
     flex-direction: column;
+    padding-top: 20px;
   }
   .navbar-menu__item {
     margin-bottom: 20px;
@@ -1936,6 +1941,9 @@ textarea {
 }
 
 @media (max-width: 576px) {
+  .navbar-top {
+    padding-top: 25px;
+  }
   .logo {
     width: 100px;
   }
@@ -1954,6 +1962,9 @@ textarea {
   .hotel-slider__item {
     width: 100%;
     height: 56vw;
+  }
+  .search__input {
+    width: 245px;
   }
   .hotel-slider {
     margin-bottom: 20px;
@@ -2102,9 +2113,6 @@ textarea {
   }
   .container {
     width: 86%;
-  }
-  .navbar-top {
-    padding-top: 23px;
   }
   .booking {
     width: 100%;
