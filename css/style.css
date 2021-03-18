@@ -364,6 +364,10 @@ button, a {
   cursor: pointer;
 }
 
+textarea {
+  resize: none;
+}
+
 .navbar {
   background-color: #fff;
 }
@@ -755,7 +759,7 @@ button, a {
 }
 
 .other {
-  padding: 7px 0 67px 0;
+  padding: 10px 0 67px 0;
 }
 
 .other__title {
@@ -816,6 +820,9 @@ button, a {
 }
 
 .package-1__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 365px;
   padding: 40px 21px 30px 44px;
 }
@@ -825,7 +832,7 @@ button, a {
 }
 
 .package-1__title {
-  margin: 0 0 28px 0;
+  margin: 0 0 25px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -837,7 +844,6 @@ button, a {
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  margin-bottom: 46px;
 }
 
 .package-1__sofe {
@@ -939,7 +945,7 @@ button, a {
 }
 
 .package__title {
-  margin: 0 0 23px 0;
+  margin: 0 0 22px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1167,7 +1173,7 @@ button, a {
   flex-direction: column;
   align-items: center;
   margin-top: -45px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 }
 
 .reviews-slider__avatar {
@@ -1217,7 +1223,7 @@ button, a {
 }
 
 .activities {
-  padding: 42px 0 97px 0;
+  padding: 39px 0 97px 0;
 }
 
 .activities__title {
@@ -1308,7 +1314,7 @@ button, a {
   position: relative;
 }
 
-.footer-wrapper-logo {
+.footer-logo {
   grid-row: 1 / 3;
   align-self: center;
 }
@@ -1470,7 +1476,7 @@ button, a {
 .footer__end {
   grid-column: 1 / 5;
   justify-self: center;
-  margin-top: 74px;
+  margin-top: 77px;
 }
 
 .footer__end-link {
@@ -1634,7 +1640,7 @@ button, a {
     grid-row-gap: 45px;
     grid-column-gap: 0;
   }
-  .footer-wrapper-logo {
+  .footer-logo {
     grid-row: 1 / 2;
     grid-column: 1 / 3;
   }
