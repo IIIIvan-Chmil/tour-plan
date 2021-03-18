@@ -1874,7 +1874,7 @@ textarea {
   }
   .footer__legal {
     grid-row: 3 / 4;
-    grid-column: 1;
+    grid-column: 1 / 3;
   }
   .footer__contacts-detalis {
     grid-column: 1 / 4;
