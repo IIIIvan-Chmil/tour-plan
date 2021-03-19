@@ -1762,10 +1762,10 @@ textarea {
   .navbar-menu__item {
     margin-bottom: 17px;
   }
-  .navbar-menu__item--user {
+  .navbar-menu__item-user {
     margin-bottom: 20px;
   }
-  .navbar-menu__item--form {
+  .navbar-menu__item-form {
     margin-bottom: 30px;
   }
   .navbar-menu__item--mobile--visible {
