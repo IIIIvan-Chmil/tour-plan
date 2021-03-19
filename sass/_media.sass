@@ -96,7 +96,7 @@
       line-height: 38px
       margin-bottom: 50px
   .activities
-    padding: 32px 0 50px 0
+    padding: 30px 0 50px 0
     &-wrapper
       flex-wrap: wrap
     &__card
@@ -163,6 +163,8 @@
     &__end
       margin-top: 14px
       justify-self: start
+      &-img
+        bottom: 12px
 
 @media (max-width: 767px)
   .container
@@ -198,13 +200,18 @@
       bottom: 0
       top: 71px
       padding-top: 11px
+      overflow: auto
       &--visible
         display: block
     &-menu
       flex-direction: column
       padding-top: 20px
       &__item
-        margin-bottom: 20px
+        margin-bottom: 17px
+        &--user
+          margin-bottom: 20px
+        &--form
+          margin-bottom: 30px
         &--mobile
           &--visible
             display: block
@@ -375,6 +382,9 @@
   .search
     &__input
       width: 245px
+  .breadcrumb
+    &-list
+      padding: 11px 0
   .hotel
     &-slider
       margin-bottom: 20px
@@ -487,9 +497,9 @@
         display: block
 @media (max-width: 320px)
   .hotel
-    padding-top: 1px
+    padding-top: 9px
   .container
-    width: 86%
+    width: 88%
   .booking
     width: 100%
     min-height: 100%

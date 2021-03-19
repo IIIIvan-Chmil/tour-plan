@@ -763,7 +763,7 @@ textarea {
 }
 
 .other {
-  padding: 10px 0 67px 0;
+  padding: 10px 0 70px 0;
 }
 
 .other__title {
@@ -773,7 +773,7 @@ textarea {
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 66px;
+  margin-bottom: 65px;
 }
 
 .other__grid {
@@ -1312,7 +1312,7 @@ textarea {
 .footer-wrapper {
   display: grid;
   grid-template-columns: repeat(4, minmax(min-content, 1fr));
-  gap: 19px 26px;
+  gap: 20px 31px;
   grid-auto-rows: minmax(45px, min-content);
   align-items: start;
   position: relative;
@@ -1340,6 +1340,7 @@ textarea {
   align-items: center;
   min-width: 83px;
   justify-content: space-between;
+  margin-top: 2px;
 }
 
 .footer__social-network {
@@ -1385,7 +1386,7 @@ textarea {
 }
 
 .footer__title--inline {
-  margin: 0 43px 0 0;
+  margin: 2px 46px 0 0;
 }
 
 .footer__title--mb-3 {
@@ -1402,7 +1403,7 @@ textarea {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 157%;
+  line-height: 159%;
   color: #BDBDBD;
 }
 
@@ -1624,7 +1625,7 @@ textarea {
     margin-bottom: 50px;
   }
   .activities {
-    padding: 32px 0 50px 0;
+    padding: 30px 0 50px 0;
   }
   .activities-wrapper {
     flex-wrap: wrap;
@@ -1707,6 +1708,9 @@ textarea {
     margin-top: 14px;
     justify-self: start;
   }
+  .footer__end-img {
+    bottom: 12px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1746,6 +1750,7 @@ textarea {
     bottom: 0;
     top: 71px;
     padding-top: 11px;
+    overflow: auto;
   }
   .navbar-bottom--visible {
     display: block;
@@ -1755,7 +1760,13 @@ textarea {
     padding-top: 20px;
   }
   .navbar-menu__item {
+    margin-bottom: 17px;
+  }
+  .navbar-menu__item--user {
     margin-bottom: 20px;
+  }
+  .navbar-menu__item--form {
+    margin-bottom: 30px;
   }
   .navbar-menu__item--mobile--visible {
     display: block;
@@ -1966,6 +1977,9 @@ textarea {
   .search__input {
     width: 245px;
   }
+  .breadcrumb-list {
+    padding: 11px 0;
+  }
   .hotel-slider {
     margin-bottom: 20px;
   }
@@ -2109,10 +2123,10 @@ textarea {
 
 @media (max-width: 320px) {
   .hotel {
-    padding-top: 1px;
+    padding-top: 9px;
   }
   .container {
-    width: 86%;
+    width: 88%;
   }
   .booking {
     width: 100%;
