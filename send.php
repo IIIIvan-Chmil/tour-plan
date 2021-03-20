@@ -1,24 +1,49 @@
 <?php
+include ('password.php');
 // Файлы phpmailer
 require 'phpmailer/PHPMailer.php';
 require 'phpmailer/SMTP.php';
 require 'phpmailer/Exception.php';
 
-// Переменные, которые отправляет пользователь
-$name = $_POST['name'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
-$email = $_POST['email'];
 
-// Формирование самого письма
-$title = "Новое обращение Best Tour plan";
-$body = "
-<h2>Новое обращение</h2>
-<b>Имя:</b> $name<br>
-<b>электронная почта:</b> $email<br>
-<br>Телефон:</br> $phone<br><br>
-<b>Сообщение:</b><br>$message
-";
+if (count($_POST) == 4) {
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+    $email = $_POST['email'];
+
+    // Формирование самого письма
+    $title = "Новое обращение Best Tour plan";
+    $body = "
+    <h2>Новое обращение</h2>
+    <b>Имя:</b> $name<br>
+    <b>электронная почта:</b> $email<br>
+    <br>Телефон:</br> $phone<br><br>
+    <b>Сообщение:</b><br>$message
+    ";
+} else if (count($_POST) == 3) {
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+
+    // Формирование самого письма
+    $title = "Новое обращение Best Tour plan";
+    $body = "
+    <h2>Новое обращение</h2>
+    <b>Имя:</b> $name<br>
+    <br>Телефон:</br> $phone<br><br>
+    <b>Сообщение:</b><br>$message
+    ";
+} else if (count($_POST) == 1) {
+    $email = $_POST['email'];
+
+    // Формирование самого письма
+    $title = "Новое обращение Best Tour plan";
+    $body = "
+       <h2>Новое обращение</h2>
+    <b>электронная почта:</b> $email<br>
+    ";
+}
 
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();
@@ -56,4 +81,8 @@ else {$result = "error";}
 }
 
 // Отображение результата
-header('Location: thankyou.html');
+if (($_POST) == 3) {
+    header('Location: thankyou.html');
+} else {
+    header('Location: thankyou1.html');
+}
