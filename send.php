@@ -83,6 +83,8 @@ else {$result = "error";}
 // Отображение результата
 if (count($_POST) == 3) {
     header('Location: thankyou.html');
+} else if (count($_POST) == 4) {
+    header('Location: thankyou2.html');
 } else {
     header('Location: thankyou1.html');
 }
