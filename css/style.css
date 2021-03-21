@@ -408,7 +408,7 @@ textarea {
   line-height: 18px;
 }
 
-.navbar-menu__item--mobile--visible {
+.navbar-menu__item-mobile-visible {
   display: none;
 }
 
@@ -758,7 +758,6 @@ textarea {
 .map {
   width: 347px;
   height: 213px;
-  background-color: red;
   border-radius: 10px;
 }
 
@@ -1774,7 +1773,7 @@ textarea {
   .navbar-menu__item-form {
     margin-bottom: 30px;
   }
-  .navbar-menu__item--mobile--visible {
+  .navbar-menu__item-mobile-visible {
     display: block;
   }
   .menu-button {
