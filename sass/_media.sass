@@ -26,6 +26,10 @@
   .footer
     &__input
       flex-basis: 100%
+  .modal
+    &__dialog
+      max-width: 478px
+      padding: 39px 50px 31px 50px
 @media (max-width: 992px)
   .container
     max-width: 700px
@@ -170,6 +174,8 @@
         bottom: 12px
   .modal
     &__dialog
+      width: 578px
+      padding: 39px 30px 31px 30px
 @media (max-width: 767px)
   .container
     max-width: 576px
@@ -367,6 +373,8 @@
         width: 100%
   .modal
     &__dialog
+      width: 576px
+      padding: 39px 20px 31px 20px
 @media (max-width: 576px)
   .navbar
     &-top
@@ -502,9 +510,14 @@
         display: block
   .modal
     &__dialog
-@media (max-width: 412px)
-  .modal
-    &__dialog
+      width: 92%
+      top: 50%
+      transform: translate(-50%, -60%)
+    &__button
+      &-info
+        flex-direction: column-reverse
+    &__info
+      margin-bottom: 15px
 @media (max-width: 320px)
   .hotel
     padding-top: 9px
@@ -515,3 +528,7 @@
     min-height: 100%
     padding: 30px 18px 25px 20px
     margin-bottom: 20px
+  .modal
+    &__dialog
+      width: 92%
+      top: 57%

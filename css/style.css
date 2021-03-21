@@ -1629,6 +1629,10 @@ textarea {
   .footer__input {
     flex-basis: 100%;
   }
+  .modal__dialog {
+    max-width: 478px;
+    padding: 39px 50px 31px 50px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1810,6 +1814,10 @@ textarea {
   }
   .footer__end-img {
     bottom: 12px;
+  }
+  .modal__dialog {
+    width: 578px;
+    padding: 39px 30px 31px 30px;
   }
 }
 
@@ -2049,6 +2057,10 @@ textarea {
     grid-column: 1 / 4;
     width: 100%;
   }
+  .modal__dialog {
+    width: 576px;
+    padding: 39px 20px 31px 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2219,6 +2231,17 @@ textarea {
     position: static;
     display: block;
   }
+  .modal__dialog {
+    width: 92%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+  }
+  .modal__button-info {
+    flex-direction: column-reverse;
+  }
+  .modal__info {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -2233,6 +2256,10 @@ textarea {
     min-height: 100%;
     padding: 30px 18px 25px 20px;
     margin-bottom: 20px;
+  }
+  .modal__dialog {
+    width: 92%;
+    top: 57%;
   }
 }
 /*# sourceMappingURL=style.css.map */
