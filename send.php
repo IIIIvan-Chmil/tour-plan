@@ -18,7 +18,7 @@ if (count($_POST) == 4) {
     <h2>Новое обращение</h2>
     <b>Имя:</b> $name<br>
     <b>электронная почта:</b> $email<br>
-    <br>Телефон:</br> $phone<br><br>
+    <b>Телефон:</br> $phone<br><br>
     <b>Сообщение:</b><br>$message
     ";
 } else if (count($_POST) == 3) {

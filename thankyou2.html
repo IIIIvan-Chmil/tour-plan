@@ -65,9 +65,7 @@
       <div class="navbar-bottom">
         <div class="container">
           <ul class="navbar-menu">
-            <li
-              class="navbar-menu__item-user navbar-menu__item--mobile--visible"
-            >
+            <li class="navbar-menu__item-user navbar-menu__item-mobile-visible">
               <a
                 href="#"
                 class="user navbar__user navbar__user--mobile--visible"
@@ -80,9 +78,7 @@
                 <span class="user__name user__name--light">Nathan</span>
               </a>
             </li>
-            <li
-              class="navbar-menu__item-form navbar-menu__item--mobile--visible"
-            >
+            <li class="navbar-menu__item-form navbar-menu__item-mobile-visible">
               <form
                 action="#"
                 class="search navbar__search navbar__search--mobile--visible"
@@ -129,21 +125,6 @@
       </div>
       <!-- /.navbar-botton -->
     </header>
-    <nav class="breadcrumb">
-      <div class="container">
-        <ul class="breadcrumb-list">
-          <li class="breadcrumb-list__item">
-            <a href="#" class="breadcrumb-list__link">Home</a>
-          </li>
-          <li class="breadcrumb-list__item">
-            <a href="#" class="breadcrumb-list__link">Flash Offers</a>
-          </li>
-          <li class="breadcrumb-list__item">Grand Hilton Hotel</li>
-        </ul>
-      </div>
-      <!-- /.container -->
-    </nav>
-    <!-- /.breadcrumb -->
     <section class="hotel">
       <div class="container">
         <div class="hotel-info">
@@ -319,7 +300,7 @@
                 name="phone"
               />
               <textarea
-                class="footer__message"
+                class="message footer__message"
                 placeholder="Message"
                 name="message"
               ></textarea>
@@ -344,9 +325,54 @@
       </div>
       <!-- /.container -->
     </footer>
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <a href="#" class="modal__close"
+          ><img src="img/close.svg" alt="icon: close"
+        /></a>
+        <h3 class="modal__title modal__title--send">booking</h3>
+        <div class="modal__father">
+          <div class="modal__children">
+            <form action="send.php" method="POST" class="modal__form">
+              <input
+                type="text"
+                class="input modal__input"
+                placeholder="Your Full Name*"
+                name="name"
+              />
+              <input
+                type="text"
+                class="input modal__input"
+                placeholder="Phone Number*"
+                name="phone"
+              />
+              <input
+                type="text"
+                class="input modal__input"
+                placeholder="Email*"
+                name="email"
+              />
+              <textarea
+                class="message modal__message"
+                placeholder="Message"
+                name="message"
+              ></textarea>
+              <div class="modal__button-info">
+                <button class="button modal__button">Send</button>
+                <span class="modal__info">* Required Fields</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal__dialog -->
+    </div>
+    <!-- /.modal -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/parallax.js"></script>
   </body>
 </html>
