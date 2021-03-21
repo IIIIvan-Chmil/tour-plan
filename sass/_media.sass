@@ -1,6 +1,7 @@
 @media (min-width: 992px)
   .user__name:hover, .navbar-menu__link:hover, .footer__item:hover, .footer__link:hover, .footer__end-link:hover
     color: $primary
+
 @media (max-width: 1200px)
   .container
     max-width: 960px
@@ -375,6 +376,13 @@
     &__dialog
       width: 576px
       padding: 39px 20px 31px 20px
+@media (max-height: 500px)
+  .modal
+    &__father
+      overflow: auto
+      height: 200px
+    &__dialog
+      transform: translate(-50%, -34%)
 @media (max-width: 576px)
   .navbar
     &-top
@@ -512,7 +520,7 @@
     &__dialog
       width: 92%
       top: 50%
-      transform: translate(-50%, -60%)
+      transform: translate(-50%, -50%)
     &__button
       &-info
         flex-direction: column-reverse
@@ -528,7 +536,3 @@
     min-height: 100%
     padding: 30px 18px 25px 20px
     margin-bottom: 20px
-  .modal
-    &__dialog
-      width: 92%
-      top: 57%

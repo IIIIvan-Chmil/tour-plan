@@ -1356,7 +1356,7 @@ textarea {
   max-width: 478px;
   padding: 39px 87px 31px 89px;
   background-color: #0A223D;
-  transform: translate(-50%, -34%);
+  transform: translate(-50%, -40%);
   color: #fff;
   border-radius: 8px;
   z-index: 101;
@@ -2063,6 +2063,16 @@ textarea {
   }
 }
 
+@media (max-height: 500px) {
+  .modal__father {
+    overflow: auto;
+    height: 200px;
+  }
+  .modal__dialog {
+    transform: translate(-50%, -34%);
+  }
+}
+
 @media (max-width: 576px) {
   .navbar-top {
     padding-top: 25px;
@@ -2234,7 +2244,7 @@ textarea {
   .modal__dialog {
     width: 92%;
     top: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
   }
   .modal__button-info {
     flex-direction: column-reverse;
@@ -2256,10 +2266,6 @@ textarea {
     min-height: 100%;
     padding: 30px 18px 25px 20px;
     margin-bottom: 20px;
-  }
-  .modal__dialog {
-    width: 92%;
-    top: 57%;
   }
 }
 /*# sourceMappingURL=style.css.map */
