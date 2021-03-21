@@ -31,7 +31,7 @@ if (count($_POST) == 4) {
     $body = "
     <h2>Новое обращение</h2>
     <b>Имя:</b> $name<br>
-    <br>Телефон:</br> $phone<br><br>
+    <b>Телефон:</b> $phone<br><br>
     <b>Сообщение:</b><br>$message
     ";
 } else if (count($_POST) == 1) {
