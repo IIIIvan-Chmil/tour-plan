@@ -387,7 +387,7 @@ textarea {
 .button {
   min-width: 160px;
   min-height: 50px;
-  padding: 18px;
+  padding: 13px;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -748,7 +748,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 
 .booking__heading {
@@ -1354,9 +1354,9 @@ textarea {
   top: 50%;
   left: 50%;
   max-width: 478px;
-  padding: 33px 88px;
+  padding: 39px 87px 31px 89px;
   background-color: #0A223D;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -34%);
   color: #fff;
   border-radius: 8px;
   z-index: 101;
@@ -1373,7 +1373,7 @@ textarea {
 .modal__close {
   position: absolute;
   right: 18px;
-  top: 17px;
+  top: 20px;
   text-decoration: none;
 }
 
@@ -1401,9 +1401,16 @@ textarea {
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
+  margin-top: -4px;
   margin-bottom: 15px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.modal__button-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer {
@@ -1556,6 +1563,13 @@ textarea {
   font-size: 12px;
   line-height: 15px;
   color: #BDBDBD;
+}
+
+.footer__button-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer__end {
