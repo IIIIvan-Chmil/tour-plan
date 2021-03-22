@@ -1615,9 +1615,18 @@ input::placeholder, textarea::placeholder {
   right: 0;
 }
 
+.footer__tel {
+  text-decoration: none;
+  color: #BDBDBD;
+}
+
 @media (min-width: 992px) {
-  .user__name:hover, .navbar-menu__link:hover, .footer__item:hover, .footer__link:hover, .footer__end-link:hover {
+  a:hover {
     color: #ec1f46;
+  }
+  button:hover {
+    color: #ffffff;
+    opacity: 0.5;
   }
 }
 
