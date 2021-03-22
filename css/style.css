@@ -791,6 +791,19 @@ textarea {
   border-radius: 10px;
 }
 
+.hotel__exit {
+  padding-bottom: 5px;
+}
+
+.hotel__exit-home {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hotel__exit-button {
+  margin-top: 5px;
+}
+
 .other {
   padding: 10px 0 70px 0;
 }
