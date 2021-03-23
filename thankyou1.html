@@ -267,9 +267,15 @@
                     alt="icon: contact-phone"
                   />
                 </div>
-                Tel (business hours) : 269 1500 <br />Tel (hotline) Monday -
-                Saturday: 52-56-61-38 (08:00 am – 20:00 pm) <br />Tel (hotline)
-                Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                <span>
+                  Tel (business hours) :
+                  <a class="footer__tel" href="tel:269-1500">269 1500</a>
+                  <br />Tel (hotline) Monday - Saturday:
+                  <a class="footer__tel" href="tel:52-56-61-38">52-56-61-38</a>
+                  (08:00 am – 20:00 pm) <br />Tel (hotline) Sunday:
+                  <a class="footer__tel" href="tel:52-56-61-38">52-56-61-38</a>
+                  (08:00 am – 14:00 pm)
+                </span>
               </li>
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
@@ -279,26 +285,35 @@
                     alt="icon: email"
                   />
                 </div>
-                cherly.lawson@example.com
+                <a href="mailto:cherly.lawson@example.com" class="footer__tel"
+                  >cherly.lawson@example.com</a
+                >
               </li>
             </ul>
           </div>
           <!-- /.footer__contacts-detalis -->
           <div class="footer__contacts-form">
             <h3 class="footer__title footer__title--send">Send us a message</h3>
-            <form action="send.php" method="POST" class="footer__form">
-              <input
-                type="text"
-                class="input footer__input"
-                placeholder="Your Full Name*"
-                name="name"
-              />
-              <input
-                type="text"
-                class="input footer__input"
-                placeholder="Phone Number*"
-                name="phone"
-              />
+            <form action="send.php" method="POST" class="footer__form form">
+              <div class="footer__input-group">
+                <input
+                  type="text"
+                  class="input footer__input"
+                  placeholder="Your Full Name*"
+                  name="name"
+                  minlenght="2"
+                  required
+                />
+              </div>
+              <div class="footer__input-group">
+                <input
+                  type="tel"
+                  class="input footer__input phone"
+                  placeholder="Phone Number +7(000) 000-00-00"
+                  name="phone"
+                  required
+                />
+              </div>
               <textarea
                 class="message footer__message"
                 placeholder="Message"
@@ -335,25 +350,35 @@
         <h3 class="modal__title modal__title--send">booking</h3>
         <div class="modal__father">
           <div class="modal__children">
-            <form action="send.php" method="POST" class="modal__form">
-              <input
-                type="text"
-                class="input modal__input"
-                placeholder="Your Full Name*"
-                name="name"
-              />
-              <input
-                type="text"
-                class="input modal__input"
-                placeholder="Phone Number*"
-                name="phone"
-              />
-              <input
-                type="text"
-                class="input modal__input"
-                placeholder="Email*"
-                name="email"
-              />
+            <form action="send.php" method="POST" class="modal__form form">
+              <div class="footer__input-group">
+                <input
+                  type="text"
+                  class="input modal__input"
+                  placeholder="Your Full Name*"
+                  name="name"
+                  required
+                  minlenght="2"
+                />
+              </div>
+              <div class="footer__input-group">
+                <input
+                  type="tel"
+                  class="input modal__input phone"
+                  placeholder="Phone Number*"
+                  name="phone"
+                  required
+                />
+              </div>
+              <div class="footer__input-group">
+                <input
+                  type="email"
+                  class="input modal__input"
+                  placeholder="You email*"
+                  name="email"
+                  required
+                />
+              </div>
               <textarea
                 class="message modal__message"
                 placeholder="Message"
@@ -373,6 +398,8 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
