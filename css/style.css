@@ -404,6 +404,10 @@ input::placeholder, textarea::placeholder {
   color: #BDBDBD;
 }
 
+.invalid {
+  color: #ec1f46;
+}
+
 .navbar {
   background-color: #fff;
 }
@@ -1399,13 +1403,13 @@ input::placeholder, textarea::placeholder {
 
 .modal__input {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .modal__message {
   width: 100%;
   min-height: 123px;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .modal__info {
@@ -1425,6 +1429,10 @@ input::placeholder, textarea::placeholder {
   margin-bottom: 15px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.modal__button {
+  margin-top: 15px;
 }
 
 .modal__button-info {
@@ -1561,6 +1569,10 @@ input::placeholder, textarea::placeholder {
 }
 
 .footer__input {
+  width: 100%;
+}
+
+.footer__input-group {
   margin-bottom: 15px;
   flex-basis: 47%;
 }
@@ -1655,7 +1667,7 @@ input::placeholder, textarea::placeholder {
   .package__image {
     width: 100%;
   }
-  .footer__input {
+  .footer__input-group {
     flex-basis: 100%;
   }
   .modal__dialog {
@@ -1825,9 +1837,9 @@ input::placeholder, textarea::placeholder {
   .footer__icon-wrapper {
     min-width: 45px;
   }
-  .footer__input {
+  .footer__input-group {
     grid-column: 1 / 7;
-    padding: 0 23px;
+    padding: 0 0px;
     flex-basis: 47%;
   }
   .footer__message {
@@ -2065,7 +2077,7 @@ input::placeholder, textarea::placeholder {
     grid-column: 2 / 4;
     margin-left: 0px;
   }
-  .footer__input {
+  .footer__input-group {
     flex-basis: 100%;
   }
   .footer__additional {
