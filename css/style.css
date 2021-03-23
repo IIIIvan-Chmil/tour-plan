@@ -817,12 +817,15 @@ label.invalid {
 }
 
 .hotel__exit-home {
+  display: block;
   text-decoration: none;
   color: #fff;
+  padding: 10px 20px;
 }
 
 .hotel__exit-button {
   margin-top: 5px;
+  padding: 0;
 }
 
 .other {
