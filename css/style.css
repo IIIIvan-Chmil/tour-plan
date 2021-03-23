@@ -821,11 +821,8 @@ label.invalid {
   text-decoration: none;
   color: #fff;
   padding: 10px 20px;
-}
-
-.hotel__exit-button {
-  margin-top: 5px;
-  padding: 0;
+  text-align: center;
+  background-color: #0A223D;
 }
 
 .other {
