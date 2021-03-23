@@ -408,7 +408,7 @@ input::placeholder, textarea::placeholder {
   color: #ec1f46;
 }
 
-.footer__input-group {
+.footer__input-group, .modal__input-group {
   position: relative;
 }
 
@@ -1419,6 +1419,11 @@ label.invalid {
   width: 100%;
 }
 
+.modal__input-group {
+  margin-bottom: 15px;
+  flex-basis: 47%;
+}
+
 .modal__message {
   width: 100%;
   min-height: 123px;
@@ -1646,8 +1651,10 @@ label.invalid {
     color: #ec1f46;
   }
   button:hover {
-    color: #ffffff;
-    opacity: 0.5;
+    background: #ff0000;
+  }
+  .search__button__coordinates::hover {
+    filter: #0A223D;
   }
 }
 

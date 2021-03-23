@@ -11,13 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="navbar navbar--mobile--fixed">
       <div class="container">
-        <div class="navbar-top">
+        <div class="navbar-top" data-aos="flip-left">
           <a href="index.html" class="logo">
             <img
               src="img/horizontal-logo.svg"
@@ -285,7 +286,9 @@
       <div class="container">
         <h2 class="other__title">other packages</h2>
         <div class="other__grid">
-          <div class="other__grid-package-1 package-1">
+          <div
+            class="other__grid-package-1 package-1 data-aos='fade-up' data-aos-duration='3000'"
+          >
             <div class="package-1__image">
               <img
                 src="img/package-1.jpg"
@@ -375,7 +378,9 @@
               <!-- /.block-2 -->
             </div>
           </div>
-          <div class="other__grid-package package">
+          <div
+            class="other__grid-package package data-aos='fade-up' data-aos-duration='3000'"
+          >
             <div class="package__image">
               <img
                 src="img/package-2.jpg"
@@ -424,7 +429,9 @@
               </div>
             </div>
           </div>
-          <div class="other__grid-package package">
+          <div
+            class="other__grid-package package data-aos='fade-up' data-aos-duration='3000'"
+          >
             <div class="package__image">
               <img
                 src="img/package-3.jpg"
@@ -473,7 +480,9 @@
               </div>
             </div>
           </div>
-          <div class="other__grid-package package">
+          <div
+            class="other__grid-package package data-aos='fade-up' data-aos-duration='3000'"
+          >
             <div class="package__image">
               <img
                 src="img/package-4.jpg"
@@ -522,7 +531,9 @@
               </div>
             </div>
           </div>
-          <div class="other__grid-package package">
+          <div
+            class="other__grid-package package data-aos='fade-up' data-aos-duration='3000'"
+          >
             <div class="package__image">
               <img
                 src="img/package-5.jpg"
@@ -1002,7 +1013,7 @@
                   class="input footer__input"
                   placeholder="Your Full Name*"
                   name="name"
-                  minlenght="2"
+                  minlength="2"
                   required
                 />
               </div>
@@ -1052,17 +1063,17 @@
         <div class="modal__father">
           <div class="modal__children">
             <form action="send.php" method="POST" class="modal__form form">
-              <div class="footer__input-group">
+              <div class="modal__input-group">
                 <input
                   type="text"
                   class="input modal__input"
                   placeholder="Your Full Name*"
                   name="name"
                   required
-                  minlenght="2"
+                  minlength="2"
                 />
               </div>
-              <div class="footer__input-group">
+              <div class="modal__input-group">
                 <input
                   type="tel"
                   class="input modal__input phone"
@@ -1071,7 +1082,7 @@
                   required
                 />
               </div>
-              <div class="footer__input-group">
+              <div class="modal__input-group">
                 <input
                   type="email"
                   class="input modal__input"
@@ -1097,6 +1108,7 @@
     </div>
     <!-- /.modal -->
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
