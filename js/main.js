@@ -65,7 +65,7 @@ $(document).ready(function () {
       messages: {
         name: {
           required: "Please specify your name",
-          minlenght: "Имя должно быть не короче 2 букв",
+          minlenght: "Имя должно быть не короче 2 буквы",
         },
         email: {
           required: "We need your email address to contact you",

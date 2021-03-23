@@ -1052,28 +1052,34 @@
         <div class="modal__father">
           <div class="modal__children">
             <form action="send.php" method="POST" class="modal__form form">
-              <input
-                type="text"
-                class="input modal__input"
-                placeholder="Your Full Name*"
-                name="name"
-                required
-                minlenght="2"
-              />
-              <input
-                type="tel"
-                class="input modal__input"
-                placeholder="Phone Number*"
-                name="phone"
-                required
-              />
-              <input
-                type="email"
-                class="input modal__input"
-                placeholder="You email*"
-                name="email"
-                required
-              />
+              <div class="footer__input-group">
+                <input
+                  type="text"
+                  class="input modal__input"
+                  placeholder="Your Full Name*"
+                  name="name"
+                  required
+                  minlenght="2"
+                />
+              </div>
+              <div class="footer__input-group">
+                <input
+                  type="tel"
+                  class="input modal__input"
+                  placeholder="Phone Number*"
+                  name="phone"
+                  required
+                />
+              </div>
+              <div class="footer__input-group">
+                <input
+                  type="email"
+                  class="input modal__input"
+                  placeholder="You email*"
+                  name="email"
+                  required
+                />
+              </div>
               <textarea
                 class="message modal__message"
                 placeholder="Message"
