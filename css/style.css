@@ -1661,9 +1661,11 @@ label.invalid {
   }
   .but:hover {
     background: #ff0000;
+    transition: 0.2s;
   }
   .search__button__coordinates::hover {
     filter: #0A223D;
+    transition: 0.2s;
   }
 }
 
@@ -2010,6 +2012,25 @@ label.invalid {
     width: 100%;
     height: 250px;
     border-radius: 8px 8px 0 0;
+  }
+  .package-1__rating {
+    display: none;
+  }
+  .package-1__paragraph {
+    display: none;
+  }
+  .package-1__label {
+    position: absolute;
+    left: 0;
+    top: 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    color: #fff;
+    background-color: #ec1f46;
+    padding: 4px 9px;
+    border-radius: 0px 4px 4px 0px;
   }
   .package-1__info {
     width: 100%;

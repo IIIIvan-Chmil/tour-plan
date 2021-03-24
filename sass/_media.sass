@@ -5,8 +5,10 @@
     transition: 0.2s
   .but:hover
     background: #ff0000
+    transition: 0.2s
   .search__button__coordinates::hover
     filter: $dark
+    transition: 0.2s
 @media (max-width: 1200px)
   .container
     max-width: 960px
@@ -292,6 +294,22 @@
       width: 100%
       height: 250px
       border-radius: 8px 8px 0 0
+    &__rating
+      display: none
+    &__paragraph
+      display: none
+    &__label
+      position: absolute
+      left: 0
+      top: 26px
+      font-style: normal
+      font-weight: 600
+      font-size: 8px
+      line-height: 10px
+      color: $light
+      background-color: $primary
+      padding: 4px 9px
+      border-radius: 0px 4px 4px 0px
     &__info
       width: 100%
       padding: 40px 21px 30px 20px
