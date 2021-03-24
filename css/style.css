@@ -1742,6 +1742,9 @@ label.invalid {
     width: 100%;
     margin-bottom: 30px;
   }
+  .other__title {
+    font-size: 24px;
+  }
   .other__grid {
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
@@ -2200,6 +2203,10 @@ label.invalid {
   }
   .map {
     height: 173px;
+  }
+  .other__title {
+    font-size: 18px;
+    line-height: 23px;
   }
   .reviews {
     padding: 26px 0 35px 0;
