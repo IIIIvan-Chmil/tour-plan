@@ -916,11 +916,17 @@ label.invalid {
   line-height: 23px;
 }
 
+.package-1__par {
+  max-height: 170px;
+  overflow: auto;
+}
+
 .package-1__paragraph {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
+  margin-top: 2px;
 }
 
 .package-1__sofe {
@@ -1282,6 +1288,11 @@ label.invalid {
 .reviews-slider__rating {
   display: flex;
   align-items: center;
+}
+
+.reviews-slider__wrap {
+  max-height: 114px;
+  overflow: auto;
 }
 
 .reviews-slider__text {
@@ -2019,7 +2030,7 @@ label.invalid {
   .package-1__rating {
     display: none;
   }
-  .package-1__paragraph {
+  .package-1__par {
     display: none;
   }
   .package-1__label {
