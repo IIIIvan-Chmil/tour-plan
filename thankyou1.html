@@ -35,7 +35,7 @@
               class="search__input"
               placeholder="Search Location"
             />
-            <button class="search__button">
+            <button class="but search__button">
               <img
                 src="img/search.svg"
                 alt="Icon: search"
@@ -125,16 +125,18 @@
       </div>
       <!-- /.navbar-botton -->
     </header>
-    <section class="hotel hotel__exit">
+    <section class="hotel">
       <div class="container">
         <div class="hotel-info">
           <div class="hotel-info__text">
-            <div class="hotel-wrapper">
+            <div class="hotel-wrapper hotel-top">
               <h1 class="hotel-name hotel-info__name">THANK! Message sent!</h1>
             </div>
             <p>Our manager will send you a letter. Wait.</p>
 
-            <a href="index.html" class="hotel__exit-home">To the main</a>
+            <a href="index.html" class="but hotel__col hotel__exit-home"
+              >To the main</a
+            >
           </div>
           <!-- /.hotel-info__text -->
         </div>
@@ -319,7 +321,7 @@
                 name="message"
               ></textarea>
               <div class="footer__button-info">
-                <button class="button footer__button">Send</button>
+                <button class="but button footer__button">Send</button>
                 <span class="footer__info">* Required Fields</span>
               </div>
             </form>
@@ -350,7 +352,7 @@
         <div class="modal__father">
           <div class="modal__children">
             <form action="send.php" method="POST" class="modal__form form">
-              <div class="footer__input-group">
+              <div class="modal__input-group">
                 <input
                   type="text"
                   class="input modal__input"
@@ -360,7 +362,7 @@
                   minlength="2"
                 />
               </div>
-              <div class="footer__input-group">
+              <div class="modal__input-group">
                 <input
                   type="tel"
                   class="input modal__input phone"
@@ -369,7 +371,7 @@
                   required
                 />
               </div>
-              <div class="footer__input-group">
+              <div class="modal__input-group">
                 <input
                   type="email"
                   class="input modal__input"
@@ -384,7 +386,7 @@
                 name="message"
               ></textarea>
               <div class="modal__button-info">
-                <button class="button modal__button">Send</button>
+                <button class="but button modal__button">Send</button>
                 <span class="modal__info">* Required Fields</span>
               </div>
             </form>

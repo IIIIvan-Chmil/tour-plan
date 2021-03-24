@@ -2,7 +2,8 @@
   //.user__name:hover, .navbar-menu__link:hover, .footer__end-link:hover, .footer__link:hover, .footer__tel:hover //.footer__item:hover
   a:hover
     color: $primary
-  button:hover
+    transition: 0.2s
+  .but:hover
     background: #ff0000
   .search__button__coordinates::hover
     filter: $dark
@@ -93,6 +94,11 @@
     padding: 72px 0 73px 0
     &-wrapper
       max-width: 705px
+  .reviews
+    &-slider
+      &__item
+        &:after, &:before
+          display: none
   .reviews
     padding: 15px 0 70px 0
     &-slider
@@ -330,8 +336,6 @@
     &-slider
       &__item
         padding: 0 30px 30px
-        &:after, &:before
-          display: none
       &__button
         top: 32px
         &--prev
@@ -451,7 +455,7 @@
       line-height: 23px
       margin-bottom: 40px
   .activities
-    padding: 29px 0 40px 0
+    padding: 49px 0 40px 0
     &__title
       font-size: 18px
       line-height: 23px
@@ -541,5 +545,5 @@
   .booking
     width: 100%
     min-height: 100%
-    padding: 30px 18px 25px 20px
+    padding: 30px 24px 25px 24px
     margin-bottom: 20px

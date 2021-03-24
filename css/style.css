@@ -812,17 +812,27 @@ label.invalid {
   border-radius: 10px;
 }
 
+.hotel__col:hover {
+  color: #fff;
+}
+
+.hotel-top {
+  margin-top: 25px;
+}
+
 .hotel__exit {
   padding-bottom: 5px;
 }
 
 .hotel__exit-home {
   display: block;
+  width: 200px;
   text-decoration: none;
   color: #fff;
-  padding: 10px 20px;
+  padding: 20px 20px;
   text-align: center;
-  background-color: #0A223D;
+  background-color: #ec1f46;
+  border-radius: 4px;
 }
 
 .other {
@@ -1350,6 +1360,7 @@ label.invalid {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  max-width: 200px;
 }
 
 .card__button {
@@ -1646,8 +1657,9 @@ label.invalid {
 @media (min-width: 992px) {
   a:hover {
     color: #ec1f46;
+    transition: 0.2s;
   }
-  button:hover {
+  .but:hover {
     background: #ff0000;
   }
   .search__button__coordinates::hover {
@@ -1761,6 +1773,9 @@ label.invalid {
   }
   .newsletter-wrapper {
     max-width: 705px;
+  }
+  .reviews-slider__item:after, .reviews-slider__item:before {
+    display: none;
   }
   .reviews {
     padding: 15px 0 70px 0;
@@ -2051,9 +2066,6 @@ label.invalid {
   .reviews-slider__item {
     padding: 0 30px 30px;
   }
-  .reviews-slider__item:after, .reviews-slider__item:before {
-    display: none;
-  }
   .reviews-slider__button {
     top: 32px;
   }
@@ -2205,7 +2217,7 @@ label.invalid {
     margin-bottom: 40px;
   }
   .activities {
-    padding: 29px 0 40px 0;
+    padding: 49px 0 40px 0;
   }
   .activities__title {
     font-size: 18px;
@@ -2318,7 +2330,7 @@ label.invalid {
   .booking {
     width: 100%;
     min-height: 100%;
-    padding: 30px 18px 25px 20px;
+    padding: 30px 24px 25px 24px;
     margin-bottom: 20px;
   }
 }
