@@ -2176,10 +2176,7 @@ label.invalid {
 @media (max-height: 500px) {
   .modal__father {
     overflow: auto;
-    height: 200px;
-  }
-  .modal__dialog {
-    transform: translate(-50%, -34%);
+    height: 65vh;
   }
 }
 
