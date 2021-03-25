@@ -870,6 +870,7 @@ label.invalid {
 .package-1__image {
   width: 365px;
   height: 500px;
+  min-height: 100%;
   overflow: hidden;
   border-radius: 8px 0 0 8px;
   position: relative;
@@ -916,17 +917,11 @@ label.invalid {
   line-height: 23px;
 }
 
-.package-1__par {
-  max-height: 170px;
-  overflow: auto;
-}
-
 .package-1__paragraph {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  margin-top: 2px;
 }
 
 .package-1__sofe {
@@ -989,6 +984,8 @@ label.invalid {
 }
 
 .package {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   background-color: #0A223D;
   color: #fff;
   border-radius: 8px;
@@ -997,6 +994,7 @@ label.invalid {
 .package__image {
   width: 350px;
   height: 250px;
+  min-height: 100%;
   overflow: hidden;
   border-radius: 8px 8px 0 0;
   position: relative;
@@ -1025,6 +1023,8 @@ label.invalid {
 
 .package__info {
   padding: 30px 21px 25px 32px;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 .package__title {
