@@ -1290,11 +1290,6 @@ label.invalid {
   align-items: center;
 }
 
-.reviews-slider__wrap {
-  max-height: 114px;
-  overflow: auto;
-}
-
 .reviews-slider__text {
   max-width: 537px;
   font-style: normal;
